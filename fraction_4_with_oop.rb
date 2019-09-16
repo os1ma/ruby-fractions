@@ -26,4 +26,4 @@ fraction3 = Fraction.new(1, 5)
 
 result_fraction = fraction1.add(fraction2).add(fraction3)
 
-puts "#{fraction1.to_s} + #{fraction2.to_s} + #{fraction3.to_s} = #{result_fraction.to_s}"
+puts "#{fraction1} + #{fraction2} + #{fraction3} = #{result_fraction}"
