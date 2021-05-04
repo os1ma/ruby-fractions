@@ -7,7 +7,7 @@ set -o pipefail
 
 readonly SCRIPT_DIR="$(cd "$(dirname "$0")"; pwd)"
 
-readonly IMAGE='ruby:2.6.4-alpine3.10'
+readonly IMAGE='ruby:3.0.1-alpine3.13'
 
 docker run \
   --rm \

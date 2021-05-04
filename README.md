@@ -1,5 +1,7 @@
 # what-is-oop
 
+[![main](https://github.com/os1ma/what-is-oop/actions/workflows/main.yaml/badge.svg)](https://github.com/os1ma/what-is-oop/actions/workflows/main.yaml)
+
 Object oriented programming sample with Ruby
 
 Ruby による分数プログラムを用いたオブジェクト指向プログラミングのサンプルコード
@@ -14,13 +16,13 @@ Ruby または Docker
 ネイティブの Ruby を利用する場合
 
 ```bash
-$ ruby fraction_1_without_method.rb
+$ ruby ./lib/fraction_1_without_method.rb
 ```
 
 Docker 上で実行する場合
 
 ```bash
-$ ./ruby_on_container fraction_1_without_method.rb
+$ ./ruby_on_container ./lib/fraction_1_without_method.rb
 ```
 
 ## 内容

@@ -1,0 +1,16 @@
+name: main
+
+on:
+  push:
+    branches:
+    - main
+  pull_request:
+    branches:
+    - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - run: ./ruby_on_container.sh ./test/fraction_test.rb
