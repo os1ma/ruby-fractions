@@ -9,11 +9,12 @@ Ruby による分数プログラムを用いたオブジェクト指向プログ
 「[非オブジェクト指向プログラムとオブジェクト指向プログラムのシンプルな境界](https://qiita.com/os1ma/items/5fb07a4e3b56eab4a392)」を参照
 
 ## 依存関係
+
 Ruby または Docker
 
 ## 実行方法
 
-ネイティブの Ruby を利用する場合
+直接インストールされている Ruby を利用する場合
 
 ```bash
 $ ruby ./lib/fraction_1_without_method.rb
