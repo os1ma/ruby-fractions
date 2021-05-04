@@ -13,5 +13,7 @@ tmp_denominator = denominator1 * denominator2
 result_numerator = tmp_numerator * denominator3 + numerator3 * tmp_denominator
 result_denominator = tmp_denominator * denominator3
 
-puts "#{numerator1}/#{denominator1} + #{numerator2}/#{denominator2} + " +
-  "#{numerator3}/#{denominator3} = #{result_numerator}/#{result_denominator}"
+puts "#{numerator1}/#{denominator1} + " +
+  "#{numerator2}/#{denominator2} + " +
+  "#{numerator3}/#{denominator3} = " +
+  "#{result_numerator}/#{result_denominator}"
