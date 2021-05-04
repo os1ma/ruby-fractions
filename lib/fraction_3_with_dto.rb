@@ -25,5 +25,7 @@ fraction3 = Fraction.new(1, 5)
 tmp_fraction = add(fraction1, fraction2)
 result_fraction = add(tmp_fraction, fraction3)
 
-puts "#{to_fraction_string(fraction1)} + #{to_fraction_string(fraction2)} + " +
-  "#{to_fraction_string(fraction3)} = #{to_fraction_string(result_fraction)}"
+puts "#{to_fraction_string(fraction1)} + " +
+  "#{to_fraction_string(fraction2)} + " +
+  "#{to_fraction_string(fraction3)} = " +
+  "#{to_fraction_string(result_fraction)}"

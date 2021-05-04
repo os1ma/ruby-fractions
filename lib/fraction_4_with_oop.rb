@@ -1,8 +1,5 @@
 class Fraction
-  attr_reader :numerator
-  attr_reader :denominator
-  protected :numerator
-  protected :denominator
+  protected attr_reader :numerator, :denominator
 
   def initialize(numerator, denominator)
     @numerator = numerator
